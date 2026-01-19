@@ -23,8 +23,9 @@ let mongodbUrl = "mongodb+srv://book:samplebook@cluster0.5htjizp.mongodb.net/";
 async function connectdb() {
   try {
     await mongoose.connect(mongodbUrl, {
-      dbName: "books",
+      dbName: "bookStore",
     });
+    console.log(`Database Connected`);
   } catch (error) {
     console.log(`Error While Connecting to MongoDB`, error);
   }
