@@ -1,3 +1,10 @@
 .active {
-    color: crimson !important;
+  color: crimson !important;
+}
+body {
+  background-image: linear-gradient(
+    90deg,
+    rgba(202, 129, 129, 0.2),
+    rgba(121, 86, 86, 0.2)
+  );
 }
